@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>COSMOS — The Living Universe</title>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<div id="boot"><b>COSMOS</b><span>THE LIVING UNIVERSE</span><i><em></em></i><small>CALIBRATING OBSERVATORY</small></div>
+<header><strong>COSMOS <small>THE LIVING UNIVERSE</small></strong><nav>
+<button data-view="solar">SOLAR SYSTEM</button><button data-view="galaxy">GALAXIES</button><button data-view="deep">DEEP SPACE</button><button data-view="missions">MISSIONS</button></nav><button id="menu">☰</button></header>
+<aside><label>OBSERVATORY</label><b id="scale">SOLAR SYSTEM</b><small>SCALE</small><b id="focus">SUN</b><small>FOCUS</small><b id="disc">0</b><small>DISCOVERIES</small></aside>
+<main id="scene"></main>
+<section id="welcome"><label>INTERACTIVE ASTRONOMY</label><h1>THE<br><i>LIVING</i><br>UNIVERSE</h1><p>Explore a 3D Solar System, galaxies, nebulae and black holes from one living observatory.</p><button id="enter">ENTER OBSERVATORY</button><button id="random">TAKE ME SOMEWHERE</button></section>
+<section id="panel" class="hidden"><button class="x" id="close">×</button><label id="ptype">OBJECT</label><h2 id="pname"></h2><p id="pdesc"></p><div id="stats"></div><button id="travel">TRAVEL / FOCUS</button><button id="discover">MARK DISCOVERED</button><small id="status"></small></section>
+<section id="menuPanel" class="hidden"><button data-view="solar">Solar System</button><button data-view="galaxy">Galaxies</button><button data-view="deep">Deep Space</button><button data-view="missions">Mission Archive</button><button id="timeline">Cosmic Timeline</button><button id="unknown">The Unknown</button></section>
+<section id="info" class="hidden"><button class="x" id="infoClose">×</button><label>UNIVERSE ARCHIVE</label><h2 id="infoTitle"></h2><div id="infoBody"></div></section>
+<footer>COSMOS // EDUCATIONAL 3D MODELS · <span id="fps">— FPS</span></footer>
+<script type="module" src="script.js"></script></body></html>
